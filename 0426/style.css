@@ -1,0 +1,68 @@
+.highlight {
+    width: 450px;
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+    background-color: rgb(90, 74, 81);
+}
+
+.highlight:hover {
+    color: rgb(90, 74, 81);
+    background-color: rgb(255, 208, 0);
+    cursor: pointer;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.box1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+a {
+    color: blue;
+}
+
+.wrapper {
+    background-color: lightgray;
+    padding: 40px;
+    /* wrapper 자체의 안쪽 여백 */
+}
+
+.box_margin {
+    background-color: #ffe6cd;
+    color: rgb(104, 72, 53);
+    font-weight: bold;
+    border: 3px solid #cf5300;
+    width: 300px;
+}
+.box_padding {
+    background-color: #c6e29a;
+    color: rgb(16, 71, 5);
+    font-weight: bold;
+    border: 3px solid #2e7d32;
+    width: 300px;
+}
+
+.margin-example {
+    margin: 30px;
+    /* 바깥 여백 */
+}
+
+.padding-example {
+    padding: 30px;
+    /* 안쪽 여백 */
+}
